@@ -1,9 +1,9 @@
 class EvolutionEngine < Formula
   desc "Core engine for the Evolution Adaptation Ecosystem"
   homepage "https://github.com/AMDphreak/evolution-engine"
-  url "https://github.com/AMDphreak/evolution-engine/releases/download/v1.2.9/evolution-engine-macos-latest"
-  sha256 "f5de243e0ea931a63f95c8741e03870d0c0466a572749ad9fd86588b1856b078"
-  version "1.2.9"
+  url "https://github.com/AMDphreak/evolution-engine/releases/download/v1.3.0/evolution-engine-macos-latest"
+  sha256 "7002f2538b8f562490172bd3227d23a25fa14903d825f36fc464d0b9134a2ea4"
+  version "1.3.0"
 
   def install
     bin.install "evolution-engine-macos-latest" => "evolution-engine"
